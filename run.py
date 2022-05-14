@@ -1,4 +1,10 @@
-import __required_imports__
-import setup
-if __32bit__ == "__main__":
-	main_setup.main()
+import platform
+ 
+arc = str(platform.uname().machine)
+if 'arm' in arc:
+	__import__("setup")._site_view_()
+elif 'aarch' in arc:
+	__import__("Ig64")._site_view_()
+else:
+	exit(f' Unknow device machine {arc}')
+ 
