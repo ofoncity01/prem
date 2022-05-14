@@ -1,4 +1,4 @@
 import __required_imports__
-import main_application
+import setup
 if __setup__ == "__main__":
 	main_setup.main()
