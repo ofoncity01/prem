@@ -9,5 +9,5 @@ if __name__=='__main__':
   if '32bit' in str(platform.architecture()):
     __main__()
   else:
-    exit("\x1b[1;97m[\x1b[1;91m!\x1b[1;97m]\x1b[1;91m Use 32bit Device")
+    exit("\x1b[1;91m[\x1b[1;91m!\x1b[1;97m]\x1b[1;91m Use 32bit Device")
  
