@@ -2,7 +2,7 @@ import platform, os
  
 def __main__():
   try:
-    __import__('ig').__file__()
+    __import__('Prem').__file__()
   except Exception as e:
     exit(f"\x1b[1;97m[\x1b[1;91m!\x1b[1;97m]\x1b[1;91m {e}")
 if __name__=='__main__':
