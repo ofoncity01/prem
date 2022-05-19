@@ -9,7 +9,6 @@ import os, requests, re, json, random, sys, platform, base64,datetime, subproces
 from calendar import monthrange
 from datetime import date
 from datetime import datetime
-from concurrent.futures import ThreadPoolExecutor
 
 try:
 	import concurrent.futures
